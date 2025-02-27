@@ -27,31 +27,6 @@ h2 {
   font-weight: 500;
 }
 
-.fast_search {
-  width: 10%;
-  height: 3%;
-  left: 0;
-  top: 10%;
-  position: absolute;
-  background: orange;
-  color: white;
-  border-top-right-radius: 4rem;
-  border-bottom-right-radius: 4rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-.fast_search div {
-  width: 60%;
-  height: 50%;
-}
-.fast_search div p {
-  width: 80%;
-  color: white;
-  font-size: 3rem;
-}
-
 p {
   color: gray;
   letter-spacing: 0.08rem;
@@ -142,86 +117,36 @@ main {
   width: 100vw;
   height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-}
-footer {
-  position: relative;
-  top: 10vh;
-  width: 100%;
-  height: 35vh;
-  display: flex;
   justify-content: center;
   align-items: center;
 }
-footer section {
+main .section_1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
   width: 70%;
   height: 90%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
 }
-footer section div:first-child {
+main .section_1 .middle_block {
   width: 100%;
   height: 60%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   flex-direction: row;
-  align-items: start;
 }
-footer section div:first-child h2 {
-  font-size: 3.5rem;
-}
-footer section div:first-child .s_5_block {
-  width: 15%;
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  justify-content: start;
-  align-items: start;
-}
-footer section div:first-child .s_5_block p {
-  cursor: pointer;
-  line-height: 200%;
-}
-footer section div:first-child .s_5_block p:first-child {
-  line-height: 300%;
-}
-footer section div:first-child .web {
-  width: 20%;
-  height: 60%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
-  align-items: start;
-}
-footer section div:first-child .web .list {
+main .section_1 .middle_block .main {
   width: 100%;
-  height: 50%;
+  height: 80%;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  flex-direction: row;
 }
-footer section div:first-child .web .list img {
-  cursor: pointer;
-  transition: 0.2s;
-}
-footer section div:first-child .web .list img:hover {
-  mask-image: linear-gradient(rgb(0, 128, 0), rgb(0, 128, 0));
-}
-footer section div:last-child {
-  width: 60%;
-  height: 20%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-/*# sourceMappingURL=style.css.map */
+main .section_1 .middle_block .main input {
+  width: 100%;
+  height: 10%;
+  background: transparent;
+  border: 1px solid #e1e1e1;
+}/*# sourceMappingURL=style.css.map */

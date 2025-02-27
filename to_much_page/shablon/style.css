@@ -181,7 +181,8 @@ footer section div:first-child .web .list img {
   transition: 0.2s;
 }
 footer section div:first-child .web .list img:hover {
-  mask-image: linear-gradient(rgb(0, 128, 0), rgb(0, 128, 0));
+  -webkit-mask-image: linear-gradient(rgb(0, 128, 0), rgb(0, 128, 0));
+          mask-image: linear-gradient(rgb(0, 128, 0), rgb(0, 128, 0));
 }
 footer section div:last-child {
   width: 60%;
@@ -189,6 +190,4 @@ footer section div:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */

@@ -141,6 +141,10 @@ main .section_1 div .search input {
   border-bottom-left-radius: 2rem;
   border-top-left-radius: 2rem;
 }
+main .section_1 div .search input::-moz-placeholder {
+  position: relative;
+  left: 5%;
+}
 main .section_1 div .search input::placeholder {
   position: relative;
   left: 5%;
@@ -495,7 +499,8 @@ footer section div:first-child .web .list img {
   transition: 0.2s;
 }
 footer section div:first-child .web .list img:hover {
-  mask-image: linear-gradient(rgb(0, 128, 0), rgb(0, 128, 0));
+  -webkit-mask-image: linear-gradient(rgb(0, 128, 0), rgb(0, 128, 0));
+          mask-image: linear-gradient(rgb(0, 128, 0), rgb(0, 128, 0));
 }
 footer section div:last-child {
   width: 60%;
@@ -503,6 +508,4 @@ footer section div:last-child {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
