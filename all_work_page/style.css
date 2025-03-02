@@ -342,7 +342,10 @@ main .section_2 div:last-child button {
   border-radius: 4rem;
   background: rgba(0, 0, 0, 0);
 }
-
+main .section_2 div:last-child button:hover {
+  color: white;
+  background-color: green;
+}
 footer {
   position: relative;
   top: 10vh;
