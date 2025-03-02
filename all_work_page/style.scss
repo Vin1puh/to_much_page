@@ -294,6 +294,10 @@ main{
           color: green;
           border-radius: 4rem;
           background: rgba(0, 0, 0, 0);
+
+          &:hover{
+            background-color: green;
+            color: white;
         }
       }
     }
